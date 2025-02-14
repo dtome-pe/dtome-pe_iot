@@ -4,7 +4,7 @@ metadata:
   name: playground-deployment
   namespace: dev
 spec:
-  replicas: 1  # Change this if you want multiple instances of the Pod
+  replicas: 2  # Change this if you want multiple instances of the Pod
   selector:
     matchLabels:
       app: playground
