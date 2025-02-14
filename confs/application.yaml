@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/dtome-pe/dtome-pe_iot
     targetRevision: HEAD
-    path: manifests  # This should match your repo folder with YAMLs
+    path: confs/manifests  # This should match your repo folder with YAMLs
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
